@@ -1,0 +1,46 @@
+# Run from the project root. Direction follows the presenter's mirrored view.
+model_path = "models/gesture_recognizer.task"
+camera_index = 0
+camera_backend = "dshow" # Verified USB webcam backend on this computer.
+width = 640
+height = 480
+mirror = true
+confidence_threshold = 0.60 # Experimental baseline from local real-hand checks.
+pause_hold_seconds = 1.0
+exit_hold_seconds = 2.0
+release_seconds = 0.25 # Continuous hand removal between attempts.
+cooldown_seconds = 0.80
+max_frame_gap_seconds = 0.50 # Longer gaps pause control and discard pending input.
+swipe_min_distance = 0.22 # Maximum required travel, fraction of image width.
+swipe_min_seconds = 0.12
+swipe_max_seconds = 0.90
+swipe_max_vertical = 0.15 # Maximum vertical range, fraction of image height.
+swipe_min_consistency = 0.80 # Net horizontal distance / total horizontal travel.
+swipe_max_step = 0.18 # Reject abrupt tracking jumps between observations.
+swipe_distance_floor = 0.08 # Minimum travel even for distant/small hands.
+swipe_hand_distance = 1.30 # Travel measured relative to detected palm size.
+swipe_min_hand_size = 0.02 # Hands smaller than this need a closer camera view.
+swipe_tracking_grace_seconds = 0.12 # Brief finger-geometry interruptions only.
+diagnostics = false # Log tracking details twice per second; never save images.
+navigation_mode = "swipe" # Or "palm_turn": experimental open RIGHT-hand rotation.
+swipe_model_path = "" # Experimental: models/swipe_motion.npz; empty uses original rules.
+swipe_trial = false # Explicit opt-in to trying an unqualified model; needs swipe_model_path.
+turn_hold_seconds = 0.10 # At least three good endpoint samples; ~0.10-0.15s at 20 FPS.
+turn_min_facing = 0.20 # Ignore near-edge-on palm geometry.
+turn_max_seconds = 2.5 # Timeout after leaving a stable endpoint.
+turn_tracking_grace_seconds = 0.14 # Bridge brief loss without counting missing samples.
+turn_rearm_seconds = 1.0 # Same-direction repeat protection; lowering hand rearms early.
+turn_rearm_policy = "same_direction" # Confirmed opposite turns work immediately. Or "all_commands".
+turn_reacquire_speed = 4.5 # Time-scaled movement allowance ONLY after brief tracking loss.
+turn_reacquire_max_distance = 0.40 # Hard image-normalized cap; abrupt teleports still reset.
+record_directory = "" # Opt-in local webcam/landmark capture; --gui only. Empty = off.
+record_slideshow = false # Optional timed PowerPoint-only snapshots; needs record_directory.
+audio_feedback = true # Rising tones = active; falling tones = paused.
+detection_confidence = 0.50
+presence_confidence = 0.50
+tracking_confidence = 0.50
+countdown_seconds = 5
+
+[mapping]
+Closed_Fist = "toggle"
+Victory = "exit"

@@ -1,0 +1,1892 @@
+{
+  "source_recording": "20261019T114243Z_0e778da7",
+  "review": "Targets manually reviewed in recorded video. No image/identity/landmark arrays included.",
+  "cases": [
+    {
+      "source_time": 12.309,
+      "expected": "previous",
+      "rows": [
+        {
+          "time": 0.0,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.04853189999994356,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.09584410000024945,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.1598254000000452,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.20787440000003699,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6197975277900696,
+            "hand_present": true,
+            "position": [
+              0.5399713397026062,
+              0.6310853481292724
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1283953033489775,
+            "extended_fingers": 4,
+            "palm_facing": -0.662884885434933
+          }
+        },
+        {
+          "time": 0.27598970000008194,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5606593489646912,
+            "hand_present": true,
+            "position": [
+              0.5364069819450379,
+              0.5833662629127503
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.133311156778615,
+            "extended_fingers": 4,
+            "palm_facing": -0.5731416044123978
+          }
+        },
+        {
+          "time": 0.3262326000003668,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6118015646934509,
+            "hand_present": true,
+            "position": [
+              0.5318487167358399,
+              0.5642443418502807
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13251731596371844,
+            "extended_fingers": 4,
+            "palm_facing": -0.5669287208550567
+          }
+        },
+        {
+          "time": 0.3644788999999946,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5629689693450928,
+            "hand_present": true,
+            "position": [
+              0.5247119188308715,
+              0.5497583687305451
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1316388876850863,
+            "extended_fingers": 4,
+            "palm_facing": -0.5874143427344535
+          }
+        },
+        {
+          "time": 0.41618330000028436,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7290277481079102,
+            "hand_present": true,
+            "position": [
+              0.5247682929039001,
+              0.5489457964897155
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12955755269931196,
+            "extended_fingers": 4,
+            "palm_facing": -0.5832380560003056
+          }
+        },
+        {
+          "time": 0.4645039000001816,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7939457893371582,
+            "hand_present": true,
+            "position": [
+              0.535409438610077,
+              0.5425023674964905
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1272215950785806,
+            "extended_fingers": 4,
+            "palm_facing": -0.581759330023589
+          }
+        },
+        {
+          "time": 0.5115560000003825,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8710524439811707,
+            "hand_present": true,
+            "position": [
+              0.5544590950012207,
+              0.5408360362052917
+            ],
+            "handedness": "Right",
+            "open_hand": true,
+            "hand_scale": 0.11333722164438902,
+            "extended_fingers": 4,
+            "palm_facing": -0.3217925028651073
+          }
+        },
+        {
+          "time": 0.55979490000027,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.6111918000001424,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7889045476913452,
+            "hand_present": true,
+            "position": [
+              0.7395890355110168,
+              0.5028878211975097
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.09516713193819681,
+            "extended_fingers": 4,
+            "palm_facing": 0.7811587036844131
+          }
+        },
+        {
+          "time": 0.680399800000032,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7114071846008301,
+            "hand_present": true,
+            "position": [
+              0.8019302248954773,
+              0.5174796521663666
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1122662178780244,
+            "extended_fingers": 4,
+            "palm_facing": 0.7211976348213102
+          }
+        },
+        {
+          "time": 0.719806200000221,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.686947226524353,
+            "hand_present": true,
+            "position": [
+              0.8300466418266297,
+              0.5374191999435425
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11980526355654406,
+            "extended_fingers": 4,
+            "palm_facing": 0.6502639064782761
+          }
+        },
+        {
+          "time": 0.7676307000001543,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6983328461647034,
+            "hand_present": true,
+            "position": [
+              0.832653284072876,
+              0.5472804844379425
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12571350267117765,
+            "extended_fingers": 4,
+            "palm_facing": 0.6181329243338815
+          }
+        },
+        {
+          "time": 0.8159684000002017,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6081660985946655,
+            "hand_present": true,
+            "position": [
+              0.8248297572135925,
+              0.556751674413681
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12661887582559944,
+            "extended_fingers": 4,
+            "palm_facing": 0.6158840532708493
+          }
+        },
+        {
+          "time": 0.8646238000001176,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5962433815002441,
+            "hand_present": true,
+            "position": [
+              0.8193599104881286,
+              0.5710955858230591
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1284814591395822,
+            "extended_fingers": 4,
+            "palm_facing": 0.6117581925395471
+          }
+        },
+        {
+          "time": 0.9118665000000874,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6485447287559509,
+            "hand_present": true,
+            "position": [
+              0.8192135691642761,
+              0.5878514170646667
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13127594498850972,
+            "extended_fingers": 4,
+            "palm_facing": 0.608934673438266
+          }
+        },
+        {
+          "time": 0.9755732000003263,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6472956538200378,
+            "hand_present": true,
+            "position": [
+              0.8202362418174743,
+              0.6051591038703918
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13395567773361822,
+            "extended_fingers": 4,
+            "palm_facing": 0.6044621771204675
+          }
+        }
+      ]
+    },
+    {
+      "source_time": 15.682,
+      "expected": "next",
+      "rows": [
+        {
+          "time": 0.0,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5447995066642761,
+            "hand_present": true,
+            "position": [
+              0.7841326832771301,
+              0.5944983005523682
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12639145307784552,
+            "extended_fingers": 4,
+            "palm_facing": 0.5922163525150796
+          }
+        },
+        {
+          "time": 0.04742790000000241,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5859832167625427,
+            "hand_present": true,
+            "position": [
+              0.7819456100463867,
+              0.6050007700920105
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1264864259554205,
+            "extended_fingers": 4,
+            "palm_facing": 0.5981589330518182
+          }
+        },
+        {
+          "time": 0.09556909999992058,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.621524453163147,
+            "hand_present": true,
+            "position": [
+              0.7833951592445374,
+              0.6206233978271485
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12628057260791006,
+            "extended_fingers": 4,
+            "palm_facing": 0.6008342706589248
+          }
+        },
+        {
+          "time": 0.14352740000003905,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7082757353782654,
+            "hand_present": true,
+            "position": [
+              0.7854298114776611,
+              0.6414710640907287
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12569705755963614,
+            "extended_fingers": 4,
+            "palm_facing": 0.6118300417303131
+          }
+        },
+        {
+          "time": 0.19138969999994515,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8408336639404297,
+            "hand_present": true,
+            "position": [
+              0.792173159122467,
+              0.6700251936912537
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12639220718307037,
+            "extended_fingers": 4,
+            "palm_facing": 0.6202278949624245
+          }
+        },
+        {
+          "time": 0.25604180000027554,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8839194774627686,
+            "hand_present": true,
+            "position": [
+              0.8021440386772156,
+              0.7018600702285767
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1277761949762801,
+            "extended_fingers": 4,
+            "palm_facing": 0.6078369495223077
+          }
+        },
+        {
+          "time": 0.3044221000000107,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8728980422019958,
+            "hand_present": true,
+            "position": [
+              0.8044625639915466,
+              0.71601482629776
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1278083980327977,
+            "extended_fingers": 4,
+            "palm_facing": 0.5908854809363018
+          }
+        },
+        {
+          "time": 0.35165850000021237,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8468762040138245,
+            "hand_present": true,
+            "position": [
+              0.8016136527061463,
+              0.7162734031677246
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12720100312352675,
+            "extended_fingers": 4,
+            "palm_facing": 0.5866952597418437
+          }
+        },
+        {
+          "time": 0.39959760000010647,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7984336018562317,
+            "hand_present": true,
+            "position": [
+              0.796999204158783,
+              0.7080789923667907
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1262017512892649,
+            "extended_fingers": 4,
+            "palm_facing": 0.5951916155510466
+          }
+        },
+        {
+          "time": 0.44769129999986035,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8976252675056458,
+            "hand_present": true,
+            "position": [
+              0.7824244499206543,
+              0.6995787024497986
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11024025220116558,
+            "extended_fingers": 4,
+            "palm_facing": 0.6359158929350563
+          }
+        },
+        {
+          "time": 0.5115449999998418,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8523257374763489,
+            "hand_present": true,
+            "position": [
+              0.7578991651535034,
+              0.7169804215431214
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.10081491609302687,
+            "extended_fingers": 4,
+            "palm_facing": -0.16926306789068493
+          }
+        },
+        {
+          "time": 0.5603704000000107,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.6078502999998818,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8221986889839172,
+            "hand_present": true,
+            "position": [
+              0.5832625269889832,
+              0.6260767102241516
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.09091477956098308,
+            "extended_fingers": 4,
+            "palm_facing": -0.7426851082486642
+          }
+        },
+        {
+          "time": 0.6717109999999593,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5691282153129578,
+            "hand_present": true,
+            "position": [
+              0.5461556077003479,
+              0.6159499883651733
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11871734997125737,
+            "extended_fingers": 4,
+            "palm_facing": -0.6033836832453333
+          }
+        },
+        {
+          "time": 0.7122066000001723,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.632752001285553,
+            "hand_present": true,
+            "position": [
+              0.5283798336982727,
+              0.6087531566619873
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11878638004404009,
+            "extended_fingers": 4,
+            "palm_facing": -0.625077478166954
+          }
+        },
+        {
+          "time": 0.7522957000001043,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7219358682632446,
+            "hand_present": true,
+            "position": [
+              0.5186655223369598,
+              0.6080166101455688
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11216769174002034,
+            "extended_fingers": 4,
+            "palm_facing": -0.6641140148516594
+          }
+        },
+        {
+          "time": 0.8158606000001782,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7718632817268372,
+            "hand_present": true,
+            "position": [
+              0.5109036922454834,
+              0.6095775127410888
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11220808880647958,
+            "extended_fingers": 4,
+            "palm_facing": -0.6696645769061755
+          }
+        },
+        {
+          "time": 0.863635499999873,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8088769316673279,
+            "hand_present": true,
+            "position": [
+              0.5043977200984955,
+              0.619740891456604
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11203343473985898,
+            "extended_fingers": 4,
+            "palm_facing": -0.6657079511299636
+          }
+        },
+        {
+          "time": 0.9119341999999051,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6982534527778625,
+            "hand_present": true,
+            "position": [
+              0.4970646619796753,
+              0.6327615976333618
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11424434254031587,
+            "extended_fingers": 4,
+            "palm_facing": -0.673499912845139
+          }
+        },
+        {
+          "time": 0.9597277000002578,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6893525123596191,
+            "hand_present": true,
+            "position": [
+              0.49180775284767153,
+              0.65004643201828
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.107626211867443,
+            "extended_fingers": 4,
+            "palm_facing": -0.7484096391530549
+          }
+        }
+      ]
+    },
+    {
+      "source_time": 53.109,
+      "expected": "next",
+      "rows": [
+        {
+          "time": 0.0,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.047403099999883125,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.16254690000005212,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.2294102999999268,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7986672520637512,
+            "hand_present": true,
+            "position": [
+              0.7910395383834838,
+              0.7834249258041381
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.17974598471350892,
+            "extended_fingers": 4,
+            "palm_facing": 0.6930294738681019
+          }
+        },
+        {
+          "time": 0.3411725999999362,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5626315474510193,
+            "hand_present": true,
+            "position": [
+              0.7588929533958435,
+              0.7199601888656616
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.19264790910358806,
+            "extended_fingers": 4,
+            "palm_facing": 0.4915398573059867
+          }
+        },
+        {
+          "time": 0.3904227999996692,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5591428875923157,
+            "hand_present": true,
+            "position": [
+              0.7812106132507324,
+              0.6647423267364502
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.15077933681829617,
+            "extended_fingers": 4,
+            "palm_facing": 0.6060634638567156
+          }
+        },
+        {
+          "time": 0.449827699999787,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5694778561592102,
+            "hand_present": true,
+            "position": [
+              0.788748848438263,
+              0.6746188282966614
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14576058058262434,
+            "extended_fingers": 4,
+            "palm_facing": 0.614041349385277
+          }
+        },
+        {
+          "time": 0.5248807999996643,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.9493022561073303,
+            "hand_present": true,
+            "position": [
+              0.7698386549949646,
+              0.6602255702018738
+            ],
+            "handedness": "Right",
+            "open_hand": true,
+            "hand_scale": 0.12305512906957346,
+            "extended_fingers": 4,
+            "palm_facing": 0.6419265328041137
+          }
+        },
+        {
+          "time": 0.5688626000001022,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.6094641999998203,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8154122233390808,
+            "hand_present": true,
+            "position": [
+              0.480324923992157,
+              0.6184580564498902
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1104127241747527,
+            "extended_fingers": 4,
+            "palm_facing": -0.738070172830692
+          }
+        },
+        {
+          "time": 0.6880241999997452,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5978173613548279,
+            "hand_present": true,
+            "position": [
+              0.41948012709617616,
+              0.5825484275817872
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13943258506019368,
+            "extended_fingers": 3,
+            "palm_facing": -0.5775063692106043
+          }
+        },
+        {
+          "time": 0.727216799999951,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6166783571243286,
+            "hand_present": true,
+            "position": [
+              0.3939059615135193,
+              0.5364106476306916
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1375357975666643,
+            "extended_fingers": 4,
+            "palm_facing": -0.5525455714871069
+          }
+        },
+        {
+          "time": 0.7740911999999298,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6798049211502075,
+            "hand_present": true,
+            "position": [
+              0.3818646311759949,
+              0.5153470873832703
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12447655078968048,
+            "extended_fingers": 4,
+            "palm_facing": -0.6397809196551739
+          }
+        },
+        {
+          "time": 0.8154944999996587,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.724327802658081,
+            "hand_present": true,
+            "position": [
+              0.3765574932098389,
+              0.5085034847259522
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11903886172887274,
+            "extended_fingers": 4,
+            "palm_facing": -0.6735091141265164
+          }
+        },
+        {
+          "time": 0.8637899000000289,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.684411346912384,
+            "hand_present": true,
+            "position": [
+              0.37344202399253845,
+              0.5213249504566193
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12283296545470579,
+            "extended_fingers": 4,
+            "palm_facing": -0.6821696801425411
+          }
+        },
+        {
+          "time": 0.9115477999998802,
+          "observation": {
+            "gesture": "Thumb_Up",
+            "confidence": 0.570269763469696,
+            "hand_present": true,
+            "position": [
+              0.3617109954357147,
+              0.5667151689529419
+            ],
+            "handedness": "Left",
+            "open_hand": false,
+            "hand_scale": 0.13267160889719315,
+            "extended_fingers": 0,
+            "palm_facing": -0.6885613028846936
+          }
+        },
+        {
+          "time": 0.9591574000000946,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.785503089427948,
+            "hand_present": true,
+            "position": [
+              0.35727123022079466,
+              0.6438509702682496
+            ],
+            "handedness": "Left",
+            "open_hand": false,
+            "hand_scale": 0.12351163901664435,
+            "extended_fingers": 1,
+            "palm_facing": -0.6500810664858936
+          }
+        },
+        {
+          "time": 1.0075010999998995,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        }
+      ]
+    },
+    {
+      "source_time": 86.774,
+      "expected": "next",
+      "rows": [
+        {
+          "time": 0.0,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.04625190000024304,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.08225489999949787,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.11898399999972753,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7721585631370544,
+            "hand_present": true,
+            "position": [
+              0.8362394452095032,
+              0.770165205001831
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13845447867405516,
+            "extended_fingers": 4,
+            "palm_facing": 0.6688564878692359
+          }
+        },
+        {
+          "time": 0.18204249999962485,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7157467603683472,
+            "hand_present": true,
+            "position": [
+              0.8287329316139221,
+              0.7189686894416809
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13077231225377048,
+            "extended_fingers": 4,
+            "palm_facing": 0.662390197630491
+          }
+        },
+        {
+          "time": 0.23047529999985272,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6446062326431274,
+            "hand_present": true,
+            "position": [
+              0.8216959476470947,
+              0.6622813701629638
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13277503506358973,
+            "extended_fingers": 4,
+            "palm_facing": 0.6105931735612706
+          }
+        },
+        {
+          "time": 0.27296879999994417,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5476638078689575,
+            "hand_present": true,
+            "position": [
+              0.8195276141166687,
+              0.6503558874130249
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12970933721312403,
+            "extended_fingers": 4,
+            "palm_facing": 0.6073835837954347
+          }
+        },
+        {
+          "time": 0.3058982000002288,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6454191207885742,
+            "hand_present": true,
+            "position": [
+              0.8126291275024414,
+              0.6627645015716552
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12949260098067328,
+            "extended_fingers": 4,
+            "palm_facing": 0.6053044110542649
+          }
+        },
+        {
+          "time": 0.34659409999949276,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7140772342681885,
+            "hand_present": true,
+            "position": [
+              0.808483624458313,
+              0.6829128265380859
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12839795683916597,
+            "extended_fingers": 4,
+            "palm_facing": 0.6202613657333376
+          }
+        },
+        {
+          "time": 0.3829298000000563,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7623103857040405,
+            "hand_present": true,
+            "position": [
+              0.8021659612655639,
+              0.7071180462837219
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13287643413461847,
+            "extended_fingers": 4,
+            "palm_facing": 0.6102026439068486
+          }
+        },
+        {
+          "time": 0.42180740000003425,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7824526429176331,
+            "hand_present": true,
+            "position": [
+              0.7917949438095093,
+              0.7323885917663574
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13419433997694166,
+            "extended_fingers": 4,
+            "palm_facing": 0.6158957761601195
+          }
+        },
+        {
+          "time": 0.4606579999999667,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.9193372130393982,
+            "hand_present": true,
+            "position": [
+              0.7696361064910888,
+              0.7547019720077515
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13177147945758724,
+            "extended_fingers": 4,
+            "palm_facing": 0.6070104825537498
+          }
+        },
+        {
+          "time": 0.4944451000001209,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.9163505434989929,
+            "hand_present": true,
+            "position": [
+              0.7327553749084472,
+              0.7694878220558167
+            ],
+            "handedness": "Right",
+            "open_hand": true,
+            "hand_scale": 0.11748772101503903,
+            "extended_fingers": 4,
+            "palm_facing": 0.7054627411449061
+          }
+        },
+        {
+          "time": 0.5367745000003197,
+          "observation": {
+            "gesture": "Thumb_Up",
+            "confidence": 0.8665732145309448,
+            "hand_present": true,
+            "position": [
+              0.7685320496559143,
+              0.7568435549736023
+            ],
+            "handedness": "Right",
+            "open_hand": false,
+            "hand_scale": 0.14933273518704582,
+            "extended_fingers": 0,
+            "palm_facing": 0.46094653065878133
+          }
+        },
+        {
+          "time": 0.5848877999997057,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.6188285999996879,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.8633913993835449,
+            "hand_present": true,
+            "position": [
+              0.4258436381816864,
+              0.658603847026825
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.10648817700730102,
+            "extended_fingers": 4,
+            "palm_facing": -0.5946017653431215
+          }
+        },
+        {
+          "time": 0.6754185999998299,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6577370762825012,
+            "hand_present": true,
+            "position": [
+              0.38403854966163636,
+              0.6407103776931763
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12205769407407918,
+            "extended_fingers": 4,
+            "palm_facing": -0.6138680431319505
+          }
+        },
+        {
+          "time": 0.7091221999999107,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6028513312339783,
+            "hand_present": true,
+            "position": [
+              0.3517376720905304,
+              0.6264168739318847
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12093785192537782,
+            "extended_fingers": 4,
+            "palm_facing": -0.6093260021923431
+          }
+        },
+        {
+          "time": 0.741945300000225,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5980667471885681,
+            "hand_present": true,
+            "position": [
+              0.32783101201057435,
+              0.6231765389442444
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11326108336205908,
+            "extended_fingers": 4,
+            "palm_facing": -0.6543478894978286
+          }
+        },
+        {
+          "time": 0.7775082999996812,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5386083126068115,
+            "hand_present": true,
+            "position": [
+              0.31440277099609376,
+              0.6286822438240052
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.10638154401328624,
+            "extended_fingers": 4,
+            "palm_facing": -0.7291736786839169
+          }
+        },
+        {
+          "time": 0.8191747999999279,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6105998158454895,
+            "hand_present": true,
+            "position": [
+              0.301355904340744,
+              0.6630394935607911
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1078274509915089,
+            "extended_fingers": 4,
+            "palm_facing": -0.7379221002017873
+          }
+        },
+        {
+          "time": 0.857322099999692,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6244311332702637,
+            "hand_present": true,
+            "position": [
+              0.29817662835121156,
+              0.6859400510787964
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11535948305136542,
+            "extended_fingers": 4,
+            "palm_facing": -0.6611895729155673
+          }
+        },
+        {
+          "time": 0.896023399999649,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6367284655570984,
+            "hand_present": true,
+            "position": [
+              0.29904724955558776,
+              0.7129574060440064
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11211597893413534,
+            "extended_fingers": 4,
+            "palm_facing": -0.6915233009203311
+          }
+        },
+        {
+          "time": 0.9300444000000425,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6221797466278076,
+            "hand_present": true,
+            "position": [
+              0.300510972738266,
+              0.7391914367675781
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11263355144970215,
+            "extended_fingers": 4,
+            "palm_facing": -0.6812094732588844
+          }
+        },
+        {
+          "time": 0.9667732999996588,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5990352630615234,
+            "hand_present": true,
+            "position": [
+              0.3021002233028412,
+              0.7682940721511841
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.11591475682898612,
+            "extended_fingers": 4,
+            "palm_facing": -0.7065810669577218
+          }
+        },
+        {
+          "time": 1.0051229000000603,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6117365956306458,
+            "hand_present": true,
+            "position": [
+              0.3081175684928894,
+              0.7971135258674622
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.12018713465130863,
+            "extended_fingers": 4,
+            "palm_facing": -0.6900848093572368
+          }
+        }
+      ]
+    },
+    {
+      "source_time": 164.76,
+      "expected": "previous",
+      "rows": [
+        {
+          "time": 0.0,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.518609881401062,
+            "hand_present": true,
+            "position": [
+              0.3123490929603577,
+              0.7627654194831848
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14985153853638644,
+            "extended_fingers": 4,
+            "palm_facing": -0.6656911479327425
+          }
+        },
+        {
+          "time": 0.03216659999998228,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5262735486030579,
+            "hand_present": true,
+            "position": [
+              0.31298396587371824,
+              0.7833295345306397
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14800610676879455,
+            "extended_fingers": 4,
+            "palm_facing": -0.6614867509136412
+          }
+        },
+        {
+          "time": 0.07621579999977257,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5229254961013794,
+            "hand_present": true,
+            "position": [
+              0.31133362650871277,
+              0.7977981925010681
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14509611860278968,
+            "extended_fingers": 4,
+            "palm_facing": -0.6642935329985665
+          }
+        },
+        {
+          "time": 0.11417950000031851,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5360525250434875,
+            "hand_present": true,
+            "position": [
+              0.3139879643917084,
+              0.818427586555481
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14339659307571778,
+            "extended_fingers": 4,
+            "palm_facing": -0.641649742133011
+          }
+        },
+        {
+          "time": 0.15509800000018004,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5486741662025452,
+            "hand_present": true,
+            "position": [
+              0.31826956272125245,
+              0.8229029297828674
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1407063047828175,
+            "extended_fingers": 4,
+            "palm_facing": -0.6652710040498326
+          }
+        },
+        {
+          "time": 0.18977450000056706,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5483900308609009,
+            "hand_present": true,
+            "position": [
+              0.3189705789089203,
+              0.8239312648773194
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14321276431396787,
+            "extended_fingers": 4,
+            "palm_facing": -0.6549442282727226
+          }
+        },
+        {
+          "time": 0.22890890000053332,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5524848699569702,
+            "hand_present": true,
+            "position": [
+              0.3231087028980255,
+              0.823056411743164
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14310131814919377,
+            "extended_fingers": 4,
+            "palm_facing": -0.6538514689615333
+          }
+        },
+        {
+          "time": 0.26638199999979406,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5570465326309204,
+            "hand_present": true,
+            "position": [
+              0.3282898187637329,
+              0.8213838815689087
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1427471788513056,
+            "extended_fingers": 4,
+            "palm_facing": -0.6560992910609825
+          }
+        },
+        {
+          "time": 0.30013120000057825,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5499134063720703,
+            "hand_present": true,
+            "position": [
+              0.3341222882270813,
+              0.8209781527519227
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14187789173454335,
+            "extended_fingers": 4,
+            "palm_facing": -0.6572712075672359
+          }
+        },
+        {
+          "time": 0.3424900999998499,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.535260796546936,
+            "hand_present": true,
+            "position": [
+              0.3386408746242523,
+              0.8209010601043701
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14468278450198038,
+            "extended_fingers": 4,
+            "palm_facing": -0.6482673289515798
+          }
+        },
+        {
+          "time": 0.3864275000005364,
+          "observation": {
+            "gesture": "Thumb_Up",
+            "confidence": 0.5239191651344299,
+            "hand_present": true,
+            "position": [
+              0.3469629228115082,
+              0.8216907262802124
+            ],
+            "handedness": "Left",
+            "open_hand": false,
+            "hand_scale": 0.14603383322657543,
+            "extended_fingers": 0,
+            "palm_facing": -0.6280218747509176
+          }
+        },
+        {
+          "time": 0.4192787000001772,
+          "observation": {
+            "gesture": "Thumb_Up",
+            "confidence": 0.6226187348365784,
+            "hand_present": true,
+            "position": [
+              0.35712159276008604,
+              0.8242818951606751
+            ],
+            "handedness": "Left",
+            "open_hand": false,
+            "hand_scale": 0.14835705563387938,
+            "extended_fingers": 0,
+            "palm_facing": -0.6257392244424254
+          }
+        },
+        {
+          "time": 0.4567423999997118,
+          "observation": {
+            "gesture": "Thumb_Up",
+            "confidence": 0.6371714472770691,
+            "hand_present": true,
+            "position": [
+              0.36868547201156615,
+              0.825555682182312
+            ],
+            "handedness": "Left",
+            "open_hand": false,
+            "hand_scale": 0.14788654593030712,
+            "extended_fingers": 0,
+            "palm_facing": -0.6672590842933397
+          }
+        },
+        {
+          "time": 0.4926765999998679,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5868107676506042,
+            "hand_present": true,
+            "position": [
+              0.39650521278381345,
+              0.8209330677986145
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1422724770189838,
+            "extended_fingers": 4,
+            "palm_facing": -0.6764281180956089
+          }
+        },
+        {
+          "time": 0.5280998999996882,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6805540323257446,
+            "hand_present": true,
+            "position": [
+              0.42336581349372865,
+              0.815748143196106
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1378820961197132,
+            "extended_fingers": 4,
+            "palm_facing": -0.7117157932018455
+          }
+        },
+        {
+          "time": 0.5676571000003605,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.7067642211914062,
+            "hand_present": true,
+            "position": [
+              0.4564433991909027,
+              0.8117370963096618
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1315848273633049,
+            "extended_fingers": 4,
+            "palm_facing": -0.8168718147771126
+          }
+        },
+        {
+          "time": 0.6082045000002836,
+          "observation": {
+            "gesture": null,
+            "confidence": 0.0,
+            "hand_present": false,
+            "position": null,
+            "handedness": null,
+            "open_hand": null,
+            "hand_scale": null,
+            "extended_fingers": 0,
+            "palm_facing": null
+          }
+        },
+        {
+          "time": 0.6441789999998946,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.781520426273346,
+            "hand_present": true,
+            "position": [
+              0.6302818894386292,
+              0.7118884325027466
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1253868973143578,
+            "extended_fingers": 4,
+            "palm_facing": 0.6686093294098234
+          }
+        },
+        {
+          "time": 0.705959800000528,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6415101885795593,
+            "hand_present": true,
+            "position": [
+              0.6834375977516174,
+              0.6691749095916748
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.16609422757834894,
+            "extended_fingers": 4,
+            "palm_facing": 0.5992717067783327
+          }
+        },
+        {
+          "time": 0.7414942000004885,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6069908142089844,
+            "hand_present": true,
+            "position": [
+              0.7573110938072205,
+              0.6092393159866333
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.17384405013681622,
+            "extended_fingers": 4,
+            "palm_facing": 0.5345442824657111
+          }
+        },
+        {
+          "time": 0.7762407999998686,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6304461359977722,
+            "hand_present": true,
+            "position": [
+              0.7856604337692261,
+              0.5829140901565552
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14273092703380108,
+            "extended_fingers": 4,
+            "palm_facing": 0.6653554476750838
+          }
+        },
+        {
+          "time": 0.8135222999999314,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6142123937606812,
+            "hand_present": true,
+            "position": [
+              0.7999350309371949,
+              0.5782304883003235
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13811279963831802,
+            "extended_fingers": 4,
+            "palm_facing": 0.6655330464834235
+          }
+        },
+        {
+          "time": 0.8484446000002208,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5691906213760376,
+            "hand_present": true,
+            "position": [
+              0.8072412252426148,
+              0.5869754791259766
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.13861817010313457,
+            "extended_fingers": 4,
+            "palm_facing": 0.688348342806194
+          }
+        },
+        {
+          "time": 0.8928471999997782,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5809227228164673,
+            "hand_present": true,
+            "position": [
+              0.8126261591911316,
+              0.6035193920135498
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14086185851269323,
+            "extended_fingers": 4,
+            "palm_facing": 0.6888156417190923
+          }
+        },
+        {
+          "time": 0.9341923000001771,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.580964207649231,
+            "hand_present": true,
+            "position": [
+              0.8149626016616821,
+              0.6241446733474731
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.1435626490722695,
+            "extended_fingers": 4,
+            "palm_facing": 0.6654627650537707
+          }
+        },
+        {
+          "time": 0.967709399999876,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5747990608215332,
+            "hand_present": true,
+            "position": [
+              0.8116598010063172,
+              0.6623991012573243
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14665212592160703,
+            "extended_fingers": 4,
+            "palm_facing": 0.6360980568344649
+          }
+        },
+        {
+          "time": 1.003205799999705,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.5816724896430969,
+            "hand_present": true,
+            "position": [
+              0.8090333461761474,
+              0.6773634433746338
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14736628630873647,
+            "extended_fingers": 4,
+            "palm_facing": 0.6317028518801521
+          }
+        },
+        {
+          "time": 1.0414349000002403,
+          "observation": {
+            "gesture": "None",
+            "confidence": 0.6007517576217651,
+            "hand_present": true,
+            "position": [
+              0.8079784870147705,
+              0.6907494306564331
+            ],
+            "handedness": "Left",
+            "open_hand": true,
+            "hand_scale": 0.14680518602613737,
+            "extended_fingers": 4,
+            "palm_facing": 0.6354812866911241
+          }
+        }
+      ]
+    }
+  ]
+}
