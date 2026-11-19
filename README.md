@@ -4,6 +4,10 @@
 
 GestureDeck combines a webcam, the pretrained MediaPipe Gesture Recognizer, and local geometric and temporal rules. Its white-and-orange desktop interface shows moving hand joints, recognition feedback, control state, and approximate live performance.
 
+![Project Use interface header](outputs/final/interface_header.png)
+
+The screenshot shows an earlier session's instantaneous interface values. The measured final benchmark is reported below.
+
 The current presentation mode is **Project Use**. The retained launcher is named **GestureDeck - Learned Trial** for compatibility, but its everyday interface uses right-hand palm/back turns. Historical swipe implementations remain in the source for research and evaluation.
 
 ## What to expect
@@ -36,6 +40,7 @@ Open PowerShell in the folder where you want the project:
 ```powershell
 git clone https://github.com/v-Exor/GestureDeck_CV_Project.git
 cd GestureDeck_CV_Project
+git checkout v1.0
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
 .\.venv\Scripts\python.exe -m pip install --no-deps -e .
@@ -103,7 +108,7 @@ Use **Stop session** to finalize capture. Victory exits the slideshow but does n
 
 Use joint-overlay videos and matching stills in demonstrations. Missing detections remain without a skeleton. Use JSONL capture timestamps for timing rather than nominal 20 FPS AVI playback. A successful key-delivery result alone does not prove a visible slide change.
 
-Personal recordings, screenshots, datasets, generated reports and local model binaries are excluded from this source repository. See the [recording guide](docs/LANDMARK_RECORDINGS.md).
+Personal videos, full camera screenshots, reduced observations, individual command traces, timing samples, generated reports and local model binaries are excluded from this public source repository. Documentation includes aggregate results and selected non-personal illustrations. The teacher receives the evaluation data and joint-overlay videos through the separate submission package. See the [recording guide](docs/LANDMARK_RECORDINGS.md).
 
 ## Current demonstration results
 
@@ -119,7 +124,34 @@ The reviewed manual scope ends at fast turns: **11 cases, ten Pass outcomes and 
 
 The full fast-turn sequence contains 13 visible cycles although four pairs were intended. It retains six missed turns. No wrong-direction or duplicate navigation commands were found in that inspected sequence. Twenty successful key deliveries produced 16 visible slide changes; four PREVIOUS deliveries occurred at the first-slide boundary.
 
-These are reviewed functional observations, not independent held-out accuracy, a current speed benchmark, or a guarantee for other environments. See [results and limitations](docs/MILESTONE4_RESULTS.md).
+These are reviewed functional observations from one participant. See the [recording results](docs/MILESTONE4_RESULTS.md) and the final experiment below.
+
+## Reproduce the final results
+
+The evaluation inputs are supplied privately in **GestureDeck_Evaluation_Data.zip**, inside the teacher submission package. Extract that ZIP into the repository root, preserving its `recordings/milestone5_evaluation_inputs/` folder. The public clone alone does not contain the study data.
+
+After installing the pinned environment and adding those private inputs, run this one command from the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe -m gesturedeck.final_evaluate --output recordings/milestone5_reproduced
+```
+
+Choose a new output folder on repeat runs. The command verifies input and analysis-source SHA-256 hashes, replays both methods on the same saved scalar observations, checks exact parity with captured navigation events, and writes `results.json` and `results_table.csv`. It needs no camera, PowerPoint or model binary.
+
+| Method | Correct / physical turns | Precision | Recall | F1 |
+| --- | ---: | ---: | ---: | ---: |
+| Single-endpoint baseline | 17 / 52 | 100% | 32.69% | 0.4928 |
+| Temporal final | 46 / 52 | 100% | 88.46% | 0.9388 |
+
+The four inspected sessions contain 3,101 recorded frames and 26 NEXT plus 26 PREVIOUS turns. Final per-direction recall is 21/26 NEXT and 25/26 PREVIOUS. All six final misses occur in the fast-turn clip. No wrong-direction, duplicate or unmatched commands occur in this reviewed set. The baseline immediately resets its starting side on actual missing-hand observations and has no temporal confirmation or tracking-gap bridge. It is a minimal engineering comparator defined after the clips had been inspected.
+
+![Event recall by inspected condition](outputs/final/condition_recall.png)
+
+**Evaluation scope:** labels were reviewed with predictions known, and these sessions had already been inspected during development. There is no current training, train/validation/test split or independent held-out claim. The 45.27 seconds of negative activity cannot establish the proposal's ten-minute false-command target. Successful key delivery and visible slide changes are separate outcomes.
+
+**Fresh offline CPU benchmark:** Ryzen 5 3400G, 640 by 480, 1,307 measured frames after twenty warm-up frames per clip. Mean analysis time is **32.43 ms**, median **28.23 ms**, p95 **53.99 ms**, equivalent to **30.83 FPS** analysis throughput. Timing includes file decode, color conversion, fresh native inference and one method's processor. It excludes live camera, UI, joint drawing, recording, slideshow snapshots, sound, keys and physical slide latency. The reproduction command recomputes these statistics from pinned measured samples; it does not perform fresh inference or timing.
+
+See [final reproduction details](docs/FINAL_REPRODUCTION.md) and [sample outputs](outputs/final/README.md). Data provenance and hashes accompany the privately supplied study. Keep the teacher package restricted to the intended recipients.
 
 ## Verify the source
 
@@ -133,7 +165,9 @@ After installation, run from the project root:
 
 Tests exercise logic, mocked camera/key delivery, UI state, recording and replay. The model smoke check runs CPU inference on synthetic frames. These checks do not replace real-hand demonstration or independently measure slide-control accuracy.
 
-The existing `gesturedeck.evaluate` and `gesturedeck.reproduce_comparison` modules concern historical swipe studies. Their referenced private evidence and model snapshots are not bundled in a source-only clone. They are not a completed evaluator for the current palm-turn mode. A tag pins source bytes; it does not make unavailable evaluation assets reproducible.
+The public checkout runs the synthetic/unit checks. One private-study integration test is skipped until the teacher's data ZIP has been extracted. With that data installed, the integration check also verifies the report's frozen results.
+
+The existing `gesturedeck.evaluate` and `gesturedeck.reproduce_comparison` modules concern historical swipe studies. Their private assets are separate from the current reproducible palm-turn study in `gesturedeck.final_evaluate`. The final study reproduces saved-feature results and measured-sample summaries, rather than an end-to-end camera accuracy experiment.
 
 ## Project structure
 
@@ -152,10 +186,13 @@ src/gesturedeck/
   recording.py                Raw and joint-overlay capture
   slideshow_recording.py      Optional visible slideshow snapshots
   annotate_recording.py       Offline overlay from saved landmarks
+  final_evaluate.py           Hash-verified final palm-turn feature replay
   swipe.py, learned_swipe.py  Historical swipe implementations
 scripts/                      Model setup and research/replay utilities
 tests/                        Automated tests and synthetic fixtures
 docs/                         Current usage, architecture and evidence notes
+outputs/final/                Final numerical plots and sample outputs
+recordings/                   Local captures and private evaluation inputs
 models/README.md              Official model source and checksum
 requirements-lock.txt         Pinned tested environment
 pyproject.toml                Package metadata and entry point
@@ -175,8 +212,15 @@ See [architecture](docs/ARCHITECTURE.md) and [presentation mode](docs/PRESENTATI
 | Capture continues after Victory | Return to GestureDeck and click Stop session |
 | No audio feedback | Check Windows sound output and use the visible control state |
 
-## Checkpoint status
+## Team and final submission
 
-This repository contains application source, tests, dependency pins and usage documentation. Current independent palm-turn evaluation, a demo-computer benchmark, the backup demonstration and complete checkpoint evidence packaging remain separate work. The 80% checkpoint label describes implementation progress, not recognition accuracy.
+| Member | Team-declared role |
+| --- | --- |
+| Keanne Jericho M. Rosario | System and logic creator: hand geometry, temporal navigation, controls, session state and presentation actions |
+| Ella Edz A. Taquilid | Interface designer: white-and-orange layout, preview, recognition/status displays, gesture guide and session-control presentation |
+
+See [contributions and real Git history](CONTRIBUTORS.md). The initial import records both members' work in one commit; it does not establish individual module authorship.
+
+The final public source snapshot is tagged **v1.0**. The earlier **cp4-80** checkpoint remains preserved. The application's internal version label remains 0.2.1; v1.0 identifies the final coursework source snapshot. The separate teacher submission contains a final report PDF, twelve-slide PDF, editable originals, private evaluation inputs, joint-overlay stills and a silent 64.5-second backup demonstration. Live demonstration and classroom rehearsal still require the team and actual hardware.
 
 Developed for **CSST 106 Computer Vision**.

@@ -1,0 +1,2 @@
+# Evaluation source hashes must survive Windows and Unix checkouts.
+src/gesturedeck/*.py text eol=lf

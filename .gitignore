@@ -31,5 +31,6 @@ models/*_report.json
 *.avi
 *.mp4
 *.mov
+/outputs/final/sample_commands.csv
 Thumbs.db
 .DS_Store

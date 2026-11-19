@@ -41,6 +41,6 @@ Twenty commands report successful key delivery. Independent slide snapshots show
 - The final nominal procedure is four pairs. Earlier actual counts, timing deviations and misses remain recorded.
 - Feature replay reproduces recorded action frames and states. It is not fresh native-model inference or a speed benchmark.
 - Raw videos and detailed session evidence remain in the development project's ignored `recordings/` folder and are not bundled in this source-only repository.
-- Current independent palm-turn metrics and demo-computer speed remain unfinished.
+- At the Milestone 4 source snapshot, the final comparison and demo-computer benchmark remained unfinished. The later [Milestone 5 reproduction](FINAL_REPRODUCTION.md) adds the inspected feature-replay comparison and fresh offline CPU benchmark with their stated scope. Independent held-out generalization remains unestablished.
 
 Joint-overlay videos and actual detected-joint stills support the classroom report and presentation. Missing tracking never receives invented or carried-forward joints.

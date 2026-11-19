@@ -1,0 +1,3 @@
+method,attempts,predicted,correct,missed,wrong_directions,duplicates,unmatched_false_commands,precision,recall,f1
+endpoint_baseline,52,17,17,35,0,0,0,1.0,0.3269230769230769,0.4927536231884058
+temporal_final,52,46,46,6,0,0,0,1.0,0.8846153846153846,0.9387755102040817
